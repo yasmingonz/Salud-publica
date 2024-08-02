@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.header {
+    background-color: #6ca7c9; 
+    border-bottom: 1px solid #b3d3a9; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.header h1 {
+    margin: 0; 
+    font-size: 1em; 
+    padding: 20px;
+}
+
+.header h6 {
+    margin: 0;
+    font-size: 17px;
+    padding: 20px;
+}
+
+.header2 {
+    background-image: url(Salud-Colaborativa.gif);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.header2 h3 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px; 
+}
+
+.header2 p {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 30px; 
+}
+
+@media (max-width: 300px) {
+    .menu {
+        font-size: 15px;
+    } 
+    .videos-de-enfermedades {
+        width: 60px;
+    }
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    text-align: center;
+}
+
+a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #6ca7c9;
+    color: white;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 0 auto 5px;
+    text-align: center;
+}
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.videos-de-enfermedades {
+    margin-bottom: 20px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+img, h4 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+footer {
+    background-color: #000000;
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: px 0;  
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+
+

@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6ca7c9;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 17px;
+    padding: 20px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.equipo-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.equipo-table th, .equipo-table td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: left;
+}
+
+.equipo-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+}
+
+.equipo-table td ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.equipo-table td ul li {
+    margin-bottom: 5px;
+}
+
+.equipo-table td p {
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer address c {
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+
